@@ -5,7 +5,7 @@ dependencies {
     implementation(project(':integration:recyclerview')) {
         transitive = false
     }
-    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.google.code.gson:gson:2.8.9'
     implementation libs.androidx.recyclerview
     implementation libs.androidx.fragment
     annotationProcessor project(':annotation:compiler')
